@@ -1,0 +1,14 @@
+{
+  // Ensure Prettier is the default formatter for this project
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Enable format on save for JavaScript files
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  // Enable format on save for React JavaScript files (JSX/TSX)
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  }
+}
