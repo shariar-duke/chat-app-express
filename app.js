@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const path = require("path");
 const cookieParser = require("cookie-parser");
+const loginRouter = require("./router/loginRouter")
 
 // internal exports 
 const {notFoundHandler, errorHandler } = require("./middlewares/common/errorHandler")
@@ -35,6 +36,7 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 
 
 // routing setup 
+app.use("/", loginRouter);
 
 
 //404 not found handler 
