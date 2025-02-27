@@ -1,0 +1,9 @@
+# Node.js dependencies
+node_modules/
+
+# Package lock
+package-lock.json
+
+# Other files to ignore (optional)
+.DS_Store
+*.log
