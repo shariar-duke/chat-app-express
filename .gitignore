@@ -7,3 +7,6 @@ package-lock.json
 # Other files to ignore (optional)
 .DS_Store
 *.log
+
+
+.env
